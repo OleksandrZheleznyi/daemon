@@ -89,7 +89,7 @@ int main(void)//int argc, char * argv[]
 	return 0;
 }
 
-int writeLog(char msg[256])//функция записи строки в лог
+int writeLog(char msg[256])//function write log in file
 { 
     FILE * pLog;
     pLog = fopen("/home/sasha/Desktop/Sirin/Solution/daemon.log", "a");
