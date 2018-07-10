@@ -92,7 +92,7 @@ int main(void)//int argc, char * argv[]
 int writeLog(char msg[256])//function write log in file
 { 
     FILE * pLog;
-    pLog = fopen("/home/sasha/Desktop/Sirin/Solution/daemon.log", "a");
+    pLog = fopen("/home/sasha/Desktop/Solution/daemon.log", "a");
     if (pLog == NULL)
     {
         return 1;
